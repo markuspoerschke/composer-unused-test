@@ -1,0 +1,22 @@
+{
+    "name": "markus.poerschke/composer-unused-test",
+    "type": "project",
+    "require": {
+        "eluceo/ical": "^2.3",
+        "icanhazstring/composer-unused": "^0.7.7",
+        "psr/log": "^1.1",
+        "psr/log-implementation": "^1"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MarkusPoerschke\\ComposerUnusedTest\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Markus Poerschke",
+            "email": "markus.poerschke@check24.de"
+        }
+    ]
+}
